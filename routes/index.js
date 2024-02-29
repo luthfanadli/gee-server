@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const GeeController = require("../controllers/gee");
 
-router.get("/gee", GeeController.getGee);
+router.post("/gee", GeeController.postGee);
 
 module.exports = router;
